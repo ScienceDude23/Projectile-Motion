@@ -4,6 +4,7 @@
 #include <array>
 #include <fstream>
 
+// I ended up keeping the arrays instead of using vectors since they're fixed size so there's no problem hardcoding it
 using State = std::array<double, 5>; // u=dx/dt,v=dy/dt,x=xposition,y=yposition,t=time
 using Pos = std::array<double, 2>; // x,y position
 
