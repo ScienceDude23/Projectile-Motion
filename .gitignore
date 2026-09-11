@@ -1,6 +1,6 @@
 .venv/
-sim1/
-sim2/
+sims/
 
 notavirus.sus
+notmalware.vir
 prototype.py
